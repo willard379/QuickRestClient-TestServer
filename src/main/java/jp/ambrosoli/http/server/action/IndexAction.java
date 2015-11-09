@@ -43,7 +43,7 @@ public class IndexAction {
 
     @Execute(validator = false)
     public String index() {
-        return "index.jsp";
+        return "index.html";
     }
 
     @Execute(validator = false)
